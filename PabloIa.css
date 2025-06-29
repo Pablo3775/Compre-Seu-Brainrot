@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('background.jpg');
+  color: #0ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px; /* espaço para navbar */
+}
+
+
+.ia-container {
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #0ff;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px #0ff8;
+  max-width: 90%;
+  width: 500px;
+  position: relative;
+  top: 140px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #0ff;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #111;
+  color: #0ff;
+  box-shadow: 0 0 10px #0ff4 inset;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background: #0ff;
+  color: #000;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.resposta {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #fff;
+  min-height: 60px;
+}
+nav {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 1rem;
+  box-shadow: 0 0 10px #0ff6;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+nav a {
+  color: #0ff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #0ff2;
+}
+.Whatsapp {
+  position: relative;
+  top: 60px;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 40px;
+}
+.Whatsapp:hover {
+    background-color: rgb(0, 0, 0);
+    color: black;
+    cursor: pointer;
+}
+.Whatsapp:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+    color: cyan;
+}
